@@ -29,9 +29,9 @@ public class Games {
 
     private Double score;
 
-    //public Game(){
+    public Games(){
 
-    //}
+    }
 
     public Games(Long id, String title, Integer year, String genre, String platforms, String imgUrl, String shortDescription, String longDescription, Double score) {
         this.id = id;
